@@ -1,0 +1,57 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="{%static 'css/styles.css'%}">
+    <link rel="stylesheet" href="{%static 'vendor/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css'%}">
+</head>
+
+<body>
+    <img id="banner" src="{%static 'about/img/about.jpg'%}" alt="">
+    <div id="menu">
+        <ul>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about/" class="">About</a></li>
+            <li><a href="/buku/" class="">Daftar Buku</a></li>
+            <li><a href="/tamu/" class="">Form Tamu</a></li>
+        </ul>
+    </div>
+
+    <!--CONTAINER BOOTSTRAP -->
+    <!--https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+
+    <div class="container">
+        <p></p>
+        <!--https://getbootstrap.com/docs/4.5/components/alerts/-->
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">About Django</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quis consequuntur adipisci dolorum quam
+                vero, eveniet vitae ipsa magnam natus libero, aperiam est quidem officia nesciunt earum eos, dignissimos
+                dolorem.</p>
+            <hr>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequatur a, minima
+                fugiat praesentium itaque illum porro blanditiis saepe tempore soluta officia. Labore iste qui possimus
+                at id ea. Vitae?</p>
+        </div>
+    </div>
+    <!-- END CONTAINER BOOTSTRAP -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-dark">Copyright 2022</span>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- JS BOOTSTRAP -->
+    <script scr="{%static 'vendor/bootstrap/bootstrap.js'%}" type="text/javascripts"></script>
+    <script scr="{%static 'vendor/bootstrap/jquery-3.3.1.slim.min.js'%}" type="text/javascripts"></script>
+    <script scr="{%static 'vendor/bootstrap/popper.min.js'%}" type="text/javascripts"></script>
+
+
+</body>
+
+</html>

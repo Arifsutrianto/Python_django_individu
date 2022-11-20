@@ -1,0 +1,54 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- !kamu ini -->
+    <title>Home</title>
+    <link rel="stylesheet" href="{%static 'css/styles.css'%}" />
+    <link rel="stylesheet" href="{%static 'vendor/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css'%}" />
+  </head>
+
+  <body>
+    <img id="banner" src="{%static 'img/home.jpg'%}" alt="" />
+    <div id="menu">
+      <ul>
+        <li><a href="/" class="">Home</a></li>
+        <li><a href="/about/" class="">About</a></li>
+        <li><a href="/buku/" class="">Daftar Buku</a></li>
+        <li><a href="/tamu/" class="">Form Tamu</a></li>
+      </ul>
+    </div>
+    <!-- CONTAINER BOOTSTRAP -->
+    <!--https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <div class="container">
+      <br />
+      <!--https://getbootstrap.com/docs/4.5/components/alerts/-->
+      <div class="jumbotron">
+        <h1 class="display-4">Selamat Datang di Era Industri 4.0</h1>
+        <p class="lead">Topik Revulisi Industri 4.0 yaitu:</p>
+        <hr class="my-4" />
+        <p>Internet of Things, saat komputer dan smartphon tersambung ke interner</p>
+        <hr class="my-4" />
+        <p>Cloud Computing, Proses data sampai bermain game tidak perlu menggunakan device yang canggih, cukupt terhubung deengan internet. Data diproses pada komputer server yang menyediakan seciver tersebut</p>
+        <hr class="my-4" />
+        <p>Machine Learning, yaitu mesin yang memiliki kemampuan untuk belajar, hingga melakukan</p>
+        <a class="btn btn-primatu btn-lg" href="#" role="button">Topik Layananya</a>
+      </div>
+    </div>
+    <!-- END CONTAINER BOOTSTRAP -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-dark">Copyright 2022</span>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    ==>
+    <!-- JS BOOTSTRAP -->
+    <script scr="{%static 'vendor/boostrap/boostrap.js'%}" type="text/javascripts"></script>
+    <script scr="{%static 'vendor/boostrap/jquery-3.3.1.slim.min.js'%}" type="text/javascripts"></script>
+    <script scr="{%static 'vendor/boostrap/popper.min.js'%}" type="text/javascripts"></script>
+  </body>
+</html>
